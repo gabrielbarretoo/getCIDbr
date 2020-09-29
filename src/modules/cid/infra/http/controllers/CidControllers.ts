@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import axios from 'axios';
 import CreateCIDService from '../../../services/CreateCIDService';
 import EditCIDService from '../../../services/EditCIDService';
 import DeleteCIDService from '../../../services/DeleteCIDService';
