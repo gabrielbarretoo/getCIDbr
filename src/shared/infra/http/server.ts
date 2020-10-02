@@ -40,6 +40,5 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
   });
 });
 
-app.listen(3333, () => {
-  console.log('ON');
-});
+app.listen(process.env.PORT || 3333);
+cd OneDrive/
