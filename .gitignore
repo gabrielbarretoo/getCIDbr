@@ -1,6 +1,8 @@
-/tmp
-/.vscode
-/dist
-/node_modules
-
+.vccode/
+node_modules/
+dist/
+tmp/
 .env
+
+tmp/*
+!tmp/.gitignore
