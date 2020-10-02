@@ -22,6 +22,6 @@ cidRouter.post(
 );
 
 cidRouter.get('/search/:code', CidSearchControllers.getByCode);
-cidRouter.get('/description/', CidSearchControllers.getByDescription);
+cidRouter.get('/search/', CidSearchControllers.getByDescription);
 
 export default cidRouter;
